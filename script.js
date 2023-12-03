@@ -150,3 +150,5 @@ function playAudioAlert() {
     const audio = new Audio('./alert.mp3'); // Replace with the path to your audio file
     audio.play();
 }
+const audio = document.getElementById("audio-file");
+let numberOfActiveTimers = 0;
